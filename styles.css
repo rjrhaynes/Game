@@ -1,3 +1,40 @@
+.question-one {
+  display: none;
+}
+
+.question-two {
+  display: none;
+}
+
+.question-three {
+  display: none;
+}
+
+.question-four {
+  display: none;
+}
+
+.question-five {
+  display: none;
+}
+
+.result-one {
+  display: none;
+}
+
+.result-two {
+  display: none;
+}
+
+.result-three {
+  display: none;
+}
+
+.result-four {
+  display: none;
+}
+
+
 body {
     background: #073763ff
   }
@@ -6,7 +43,10 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Times, serif;
     color: #ffffff;
     text-align: center;
-    font-size: 100px;
+    font-size: 60px;
+    justify-content: center;
+    align-self: center;
+  
   }
   
   p {
@@ -15,6 +55,15 @@ body {
     color: #ffffff;
     font-size: 40px;
     padding: 5px;
+  }
+
+
+  img {
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
   }
   
   button {
